@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterAppDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FlutterAppDemo.'
+  s.summary          = 'Flutter 产物集成测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Flutter 产物集成测试，Flutter 产物集成测试
                        DESC
 
-  s.homepage         = 'https://github.com/LeoLai/FlutterAppDemo'
+  s.homepage         = 'https://github.com/21074223/DemoFlutterApp'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LeoLai' => '21074223@qq.com' }
@@ -57,11 +57,4 @@ TODO: Add long description of the pod here.
          fluttersdk.vendored_frameworks = 'Flutter/Flutter.framework'
        end
    end
-  # s.resource_bundles = {
-  #   'FlutterAppDemo' => ['FlutterAppDemo/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
