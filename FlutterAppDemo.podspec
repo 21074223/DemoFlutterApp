@@ -33,6 +33,7 @@ Flutter 产物集成测试，Flutter 产物集成测试
   s.source_files = 'FlutterAppDemo/Classes/**/*'
   
   s.vendored_frameworks = 'App.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => ''}
    
   s.subspec 'flutter_boost' do |boost|
   boost.source_files = 'flutter_boost/Classes/**/*.{h,m,mm}'

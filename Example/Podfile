@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'FlutterAppDemo_Example' do
-  pod 'FlutterAppDemo', :path => 'https://github.com/21074223/DemoFlutterApp.git'
+  pod 'FlutterAppDemo', :path => '../'
 
   target 'FlutterAppDemo_Tests' do
     inherit! :search_paths
